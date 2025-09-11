@@ -1,0 +1,26 @@
+{
+  "VÍSPERA": {
+    "disparador": "Viento < 50 km/h",
+    "acciones": [
+      "Revisión de sensores",
+      "Activación de vigilancia",
+      "Informe de situación cada 2 horas"
+    ]
+  },
+  "CÓDIGO ROJO": {
+    "disparador": "Viento > 90 km/h",
+    "acciones": [
+      "Activar TITÁN",
+      "Evacuación zona 3",
+      "Corte de suministro eléctrico preventivo"
+    ]
+  },
+  "RENACIMIENTO": {
+    "disparador": "Inundación > 300 cm",
+    "acciones": [
+      "Reconstrucción de infraestructura",
+      "Reasignación de recursos",
+      "Activación de protocolo de recuperación"
+    ]
+  }
+}
