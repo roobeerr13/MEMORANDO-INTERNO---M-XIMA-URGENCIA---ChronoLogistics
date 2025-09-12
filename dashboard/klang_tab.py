@@ -1,3 +1,4 @@
+import streamlit as st
 from dashboard.utils import cargar_protocolos, mostrar_ficha_protocolo, mostrar_alerta_protocolo
 
 def render_klang_tab():
