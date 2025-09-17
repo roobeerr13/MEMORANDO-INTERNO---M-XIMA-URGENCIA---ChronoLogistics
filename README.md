@@ -68,7 +68,7 @@ cd chrono-dashboard
 pip install -r requirements.txt
 
 # Ejecuta la aplicación
-streamlit run app.py
+python -m streamlit run app.py 
 
 
 
